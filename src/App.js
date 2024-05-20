@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Greeting from './Soal/soal1';
+import ClickCounter from './Soal/soal2';
+import MessageDisplay from './Soal/soal3';
+import ClickCounterWithEffect from './Soal/soal4';
+import SimpleForm from './Soal/soal5';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Greeting>
+      </Greeting>
+      <ClickCounter></ClickCounter>
+      <MessageDisplay></MessageDisplay>
+      <ClickCounterWithEffect></ClickCounterWithEffect>
+      <SimpleForm></SimpleForm>
     </div>
   );
 }
